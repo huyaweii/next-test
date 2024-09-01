@@ -31,3 +31,54 @@ body {
     text-wrap: balance;
   }
 }
+
+.wrapper {
+  height: 100vh;
+}
+
+.testAWrap {
+  width: 100vw;
+  height: 30vh;
+  background: #f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.testBCDWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.testBWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 30vw;
+  background-color: rgba(0, 255, 66, 0.2);
+}
+
+.testCDWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.testCWrap {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  background-color: rgba(163, 185, 231, 0.2);
+} 
+
+.testDWrap {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  background-color: rgba(231, 208, 163, 0.2);
+} 
